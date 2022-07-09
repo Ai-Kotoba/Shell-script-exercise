@@ -26,11 +26,10 @@ do
     newName=$(printf "%s/%05d.%s" "$directory" "$count" "$postfix")
     # 不对同一个文件、不存在的文件和目录重命名
     if [[ ! ( "$name" -ef "$newName" ) && ( -f "$name" ) ]]; then
-        # 保证移动目的地的正确
         mv "$name" "$newName"
     fi
     # 递增计算器
     _=$(( ++count ))
-    # 还原字段分隔符
-    IFS="$IFS_old"
 done
+# 还原字段分隔符
+IFS="$IFS_old"
