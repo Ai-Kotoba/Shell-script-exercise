@@ -33,7 +33,7 @@
         ```
     * 效果图：
     ![图 1](images/00036.png)  
-1. ### <span id="i2">rename.bash</span>
+1. ### <span id="i2">qapp.bash</span>
     * 注意事项：
         - 仅支持以指定文件或目录为目标
     * 使用方法：
