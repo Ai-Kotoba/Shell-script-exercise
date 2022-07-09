@@ -12,11 +12,11 @@
 ##### Ubuntu22.04，Shell(bash)，Visual Studio Code(扩展：shellman、shell-format、ShellCheck)
 
 ### 目录：
-1. [对文件从00000~99999批量进行编号](#rename)
-2. [集成git add、git commit、git push快速进行微小修改提交](#qapp)
+1. [对文件从00000~99999批量进行编号](#i1)
+2. [集成git add、git commit、git push快速进行微小修改提交](#i2)
 
 ### 说明：
-1. ### <span id="rename">rename.bash</span>
+1. ### <span id="i1">rename.bash</span>
     * 注意事项：
         - 支持以默认目录(命令行所在目录)和指定目录为目标
         - 目录所含文件名可含有空格
@@ -32,7 +32,19 @@
         :~$ rename.bash diectory/
         ```
     * 效果图：
-    ![图 1](images/7f72e3590c56c7611d9d99c4505841fd557311017ca34be83067d21148a9886e.png)  
-
+    ![图 1](images/00036.png)  
+1. ### <span id="i2">rename.bash</span>
+    * 注意事项：
+        - 仅支持以指定文件或目录为目标
+    * 使用方法：
+        ```shell
+        :~$ qapp.bash *
+        ```
+        或
+        ```shell
+        :~$ qapp.bash file1 file2 file3
+        ```
+    * 效果图：
+    
 
 
