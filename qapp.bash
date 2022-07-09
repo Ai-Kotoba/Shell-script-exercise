@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 # quick操作 git add, git commit, git push 三合一
 
