@@ -45,6 +45,8 @@
         :~$ qapp.bash file1 file2 file3
         ```
     * 效果图：
+    ![图 1](images/00039.png)  
+
     
 
 
